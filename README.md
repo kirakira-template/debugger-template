@@ -12,8 +12,10 @@ If the project is exists `webpack.config.js`, you can just rename to 'webpack-de
 
 If you want to use `npm` or `yarn` to `debugger` , you need to install first , and add `script` to `package.json`.
 
-``` package.json
+### package.json
+
+``` js
 script: {
-  'debugger': 'webpack-dev-server --open'
+  debugger: 'webpack-dev-server --open'
 }
 ```
